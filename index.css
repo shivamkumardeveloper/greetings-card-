@@ -1,0 +1,175 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  
+}
+.navr{
+  margin: 50px;
+  color: red;
+  font-weight: bold;
+  font-family: Consolas;
+  display: flex;
+  justify-content: center;
+    animation: showText 1s ease 5s forwards;
+    z-index: 20;
+}
+
+.hello{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+   object-fit: cover;
+   background-color: pink;
+   border-radius: 20px;
+}
+.kello{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -8deg;
+   background-color: red;
+   border-radius: 20px;
+}
+.sello{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+       rotate: -16deg;
+background-color: green;
+border-radius: 20px;
+}
+.gello{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -24deg;
+background-color:yellow;
+border-radius: 20px;
+}
+    
+.hello2{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -40deg;
+background-color: blue;
+border-radius: 20px;
+}
+.kello3{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -48deg;
+background-color:salmon;
+border-radius: 20px;
+}
+
+.sello4{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -56deg;
+background-color:indigo;
+border-radius: 20px;
+}
+.gello5{
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 1px solid black;
+   height: 300px;
+   width: 230px;
+    rotate: -64deg;
+background-color:rgb(50,20,10);
+border-radius: 20px;
+}
+.hello:hover{
+  z-index: 10;
+}
+.kello:hover{
+  z-index: 10;
+}
+.sello:hover{
+  z-index: 10;
+}
+.gello:hover{
+  z-index: 10;
+}
+.hello2:hover{
+  z-index: 10;
+}
+.kello3:hover{
+  z-index: 10;
+}
+.sello4:hover{
+  z-index: 10;
+}
+.gello5:hover{
+  z-index: 10;
+}
+.main img {
+  padding-top: 2px;
+  height: 300px;
+  width: 230px;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.mata {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.mata img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.black {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -3;
+  opacity: 0.5;
+}
+.black img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
